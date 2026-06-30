@@ -16,9 +16,12 @@ body{
     justify-content:space-between;
     align-items:center;
     padding:20px 10%;
-    background:#0f172a;
+    background:rgba(15,23,42,0.95);
     position:sticky;
     top:0;
+    border-bottom:2px solid #f59e0b;
+    box-shadow:0 4px 15px rgba(0,0,0,.3);
+    z-index:1000;
 }
 
 .logo{
