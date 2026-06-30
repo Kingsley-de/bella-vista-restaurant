@@ -186,3 +186,34 @@ body{
     color:#d4af37;
     margin-top:10px;
 }
+/* HAMBURGER ICON */
+.menu-toggle{
+    display:none;
+    font-size:28px;
+    color:#d4af37;
+    cursor:pointer;
+}
+
+/* MOBILE NAV */
+@media(max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        flex-direction:column;
+        background:rgba(10,10,20,0.95);
+        position:absolute;
+        top:70px;
+        right:10%;
+        padding:20px;
+        border-radius:10px;
+        border:1px solid rgba(212,175,55,0.2);
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+}
